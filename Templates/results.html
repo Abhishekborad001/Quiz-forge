@@ -19,9 +19,14 @@
           >Download as .txt</a
         >
         <a
-          class="btn btn-danger"
+          class="btn btn-danger me-2"
           href="{{ url_for('download_file', filename=pdf_filename) }}"
           >Download as .pdf</a
+        >
+        <a
+          class="btn btn-primary"
+          href="{{ url_for('download_file', filename=json_filename) }}"
+          >Download as .json</a
         >
       </div>
 
